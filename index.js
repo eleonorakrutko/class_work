@@ -50,3 +50,24 @@
 //         console.log (`${i}.${j}`);
 //     }
 // }
+
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j < 5; j++) {
+//         if (i === 3 || j === 3) {
+//             continue;   
+//         }
+//         console.log (`${i}.${j}`);
+//     }
+// }
+
+// for (let i = 10; i < 100; i++) {
+//     if ( i % 4 === 0 && i % 6 !== 0) {
+//         console.log(i);
+//     }
+// }
+
+let userNumber = +prompt('Введите число');
+for ( ; userNumber >= 0 ; userNumber--){
+
+    console.log(userNumber);
+}
